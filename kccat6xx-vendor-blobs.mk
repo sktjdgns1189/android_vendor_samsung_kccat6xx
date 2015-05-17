@@ -366,10 +366,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/samsung/kccat6xx/proprietary/etc/F16UL_s5k2p2xx_module_info.xml:system/etc/F16UL_s5k2p2xx_module_info.xml \
     vendor/samsung/kccat6xx/proprietary/etc/F16US_imx240_module_info.xml:system/etc/F16US_imx240_module_info.xml \
-    vendor/samsung/kccat6xx/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/samsung/kccat6xx/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/kccat6xx/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/kccat6xx/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/kccat6xx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \

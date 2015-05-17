@@ -47,6 +47,7 @@ echo 1 > /sys/module/msm_pm/modes/cpu0/retention/idle_enabled
 echo 1 > /sys/module/msm_pm/modes/cpu1/retention/idle_enabled
 echo 1 > /sys/module/msm_pm/modes/cpu2/retention/idle_enabled
 echo 1 > /sys/module/msm_pm/modes/cpu3/retention/idle_enabled
+echo 0 > /sys/module/msm_thermal/parameters/enabled
 echo 0 > /sys/module/msm_thermal/core_control/enabled
 echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
@@ -74,13 +75,6 @@ chmod -h 0664 /sys/class/devfreq/0.qcom,cpubw/governor
 chmod -h 0664 /sys/class/devfreq/0.qcom,cpubw/max_freq
 chmod -h 0664 /sys/class/devfreq/0.qcom,cpubw/min_freq
 
-echo 1190400 > /sys/module/cpu_boost/parameters/sync_threshold
-
-echo 10 > /sys/module/cpu_boost/parameters/boost_ms
-echo 0 > /sys/module/cpu_boost/parameters/input_boost_freq
-echo 40 > /sys/module/cpu_boost/parameters/input_boost_ms
-echo 1 > /dev/cpuctl/apps/cpu.notify_on_migrate
-
 echo "interactive" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 echo "interactive" > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
 echo "interactive" > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
@@ -89,6 +83,7 @@ echo 300000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
 echo 300000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq
 echo 300000 > /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq
 echo 300000 > /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq
+echo 1 > /sys/module/msm_thermal/parameters/enabled
 echo 1 > /sys/module/msm_thermal/core_control/enabled
 setprop ro.qualcomm.perf.cores_online 2
 chown -h system /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
@@ -218,12 +213,6 @@ echo "50 1400000:60" > /sys/devices/system/cpu/cpufreq/interactive/target_loads
 echo 300000 > /sys/devices/system/cpu/cpufreq/interactive/sampling_down_factor
 echo 0 > /sys/devices/system/cpu/cpufreq/interactive/param_index
 
-# Change cpu-boost sysfs permission
-chown -h system.system /sys/module/cpu_boost/parameters/sync_threshold
-chown -h system.system /sys/module/cpu_boost/parameters/boost_ms
-chmod -h 0660 /sys/module/cpu_boost/parameters/sync_threshold
-chmod -h 0660 /sys/module/cpu_boost/parameters/boost_ms
-
 # Change bimc-boost sysfs permission
 chown -h system.system /sys/module/qcom_cpufreq/parameters/boost_ms
 chmod -h 0660 /sys/module/qcom_cpufreq/parameters/boost_ms
@@ -257,13 +246,3 @@ chown -h system /sys/devices/system/cpu/cpufreq/ondemand/io_is_busy
 
 # Post-setup services
 rm /data/system/perfd/default_values
-start mpdecision
-echo 512 > /sys/block/mmcblk0/bdi/read_ahead_kb
-echo 512 > /sys/block/sda/bdi/read_ahead_kb
-echo 512 > /sys/block/sdb/bdi/read_ahead_kb
-echo 512 > /sys/block/sdc/bdi/read_ahead_kb
-echo 512 > /sys/block/sdd/bdi/read_ahead_kb
-echo 512 > /sys/block/sde/bdi/read_ahead_kb
-echo 512 > /sys/block/sdf/bdi/read_ahead_kb
-echo 512 > /sys/block/sdg/bdi/read_ahead_kb
-echo 512 > /sys/block/sdh/bdi/read_ahead_kb
