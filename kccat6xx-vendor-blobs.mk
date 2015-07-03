@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
     vendor/samsung/kccat6xx/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
     vendor/samsung/kccat6xx/proprietary/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/samsung/kccat6xx/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
     vendor/samsung/kccat6xx/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     vendor/samsung/kccat6xx/proprietary/etc/init.sec.boot.sh:system/etc/init.sec.boot.sh \
