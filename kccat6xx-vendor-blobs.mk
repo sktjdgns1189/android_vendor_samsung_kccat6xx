@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/kccat6xx/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+    vendor/samsung/kccat6xx/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/kccat6xx/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/kccat6xx/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/kccat6xx/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
