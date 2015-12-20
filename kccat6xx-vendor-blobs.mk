@@ -375,7 +375,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/kccat6xx/proprietary/bin/efsks:system/bin/efsks \
@@ -385,9 +384,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
     vendor/samsung/kccat6xx/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/kccat6xx/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/samsung/kccat6xx/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/samsung/kccat6xx/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/kccat6xx/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/kccat6xx/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/samsung/kccat6xx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/kccat6xx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
