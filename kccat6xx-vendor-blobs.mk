@@ -313,6 +313,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -368,7 +369,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/samsung/kccat6xx/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
-    vendor/samsung/kccat6xx/proprietary/lib/hw/sensorhubs.apq8084.so:system/lib/hw/sensorhubs.apq8084.so \
     vendor/samsung/kccat6xx/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/kccat6xx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
