@@ -49,15 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.usb.ini:system/etc/firmware/wlan/qca_cld/WCNSS_qcom_cfg.usb.ini \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/wlan/qca_cld/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/qca_cld/WCNSS_qcom_wlan_nv.bin \
-    vendor/samsung/kccat6xx/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.crda.sh:system/etc/init.crda.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.coex.sh:system/etc/init.qcom.coex.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
-    vendor/samsung/kccat6xx/proprietary/etc/init.sec.boot.sh:system/etc/init.sec.boot.sh \
     vendor/samsung/kccat6xx/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -305,61 +296,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/cameradata/H16UL_Isp1_s5k2p2xx.bin:system/cameradata/H16UL_Isp1_s5k2p2xx.bin \
     vendor/samsung/kccat6xx/proprietary/cameradata/H16US_Isp1_imx240.bin:system/cameradata/H16US_Isp1_imx240.bin \
     vendor/samsung/kccat6xx/proprietary/cameradata/Master1.bin:system/cameradata/Master1.bin \
-    vendor/samsung/kccat6xx/proprietary/cameradata/ThemeShot:system/cameradata/ThemeShot \
-    vendor/samsung/kccat6xx/proprietary/cameradata/ThemeShot/MaskInfo_v2_download.conf:system/cameradata/ThemeShot/MaskInfo_v2_download.conf \
     vendor/samsung/kccat6xx/proprietary/cameradata/cal_data_LSCmaster.bin:system/cameradata/cal_data_LSCmaster.bin \
     vendor/samsung/kccat6xx/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/kccat6xx/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters:system/cameradata/preloadfilters \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib:system/cameradata/preloadfilters/Lib \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libcartoon.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libcartoon.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libfadedcolours.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libfadedcolours.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libfisheye.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libfisheye.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libgreyscale.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libgreyscale.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libmoody.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libmoody.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.liboilpastel.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.liboilpastel.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.librugged.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.librugged.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libsepia.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libsepia.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libtint.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libtint.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libturquoise.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libturquoise.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libvignette.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libvignette.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libvintage.so:system/cameradata/preloadfilters/Lib/arm/com.sec.android.filter.libvintage.so \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res:system/cameradata/preloadfilters/Res \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libcartoon.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libcartoon.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libfadedcolours.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libfadedcolours.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libfisheye.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libfisheye.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libgreyscale.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libgreyscale.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libmoody.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libmoody.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.liboilpastel.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.liboilpastel.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.librugged.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.librugged.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libsepia.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libsepia.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libtint.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libtint.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libturquoise.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libturquoise.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libvignette.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libvignette.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Res/com.sec.android.filter.libvintage.png:system/cameradata/preloadfilters/Res/com.sec.android.filter.libvintage.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Tex:system/cameradata/preloadfilters/Tex \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Tex/com.sec.android.filter.tex_liboilpastel.png:system/cameradata/preloadfilters/Tex/com.sec.android.filter.tex_liboilpastel.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/preloadfilters/Tex/com.sec.android.filter.tex_librugged.png:system/cameradata/preloadfilters/Tex/com.sec.android.filter.tex_librugged.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging:system/cameradata/secimaging \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP:system/cameradata/secimaging/PIP \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/Cooljazz-Basic.ttf:system/cameradata/secimaging/PIP/Cooljazz-Basic.ttf \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_cubism.png:system/cameradata/secimaging/PIP/front_cubism.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_fisheye.png:system/cameradata/secimaging/PIP/front_fisheye.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_normalPIP.png:system/cameradata/secimaging/PIP/front_normalPIP.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_ovalblur.png:system/cameradata/secimaging/PIP/front_ovalblur.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_polaroid.png:system/cameradata/secimaging/PIP/front_polaroid.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_postcard.png:system/cameradata/secimaging/PIP/front_postcard.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/front_shape.png:system/cameradata/secimaging/PIP/front_shape.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_cubism.png:system/cameradata/secimaging/PIP/rear_cubism.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_fisheye.png:system/cameradata/secimaging/PIP/rear_fisheye.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_normalPIP.png:system/cameradata/secimaging/PIP/rear_normalPIP.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_ovalblur.png:system/cameradata/secimaging/PIP/rear_ovalblur.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_polaroid.png:system/cameradata/secimaging/PIP/rear_polaroid.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_postcard.png:system/cameradata/secimaging/PIP/rear_postcard.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secimaging/PIP/rear_shape.png:system/cameradata/secimaging/PIP/rear_shape.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secvision/golfShot/golf_shot_icon.png:system/cameradata/secvision/golfShot/golf_shot_icon.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secvision/soundshot/sound_shot_icon.png:system/cameradata/secvision/soundshot/sound_shot_icon.png \
-    vendor/samsung/kccat6xx/proprietary/cameradata/secvision/virtualtour/TransitionTemplates.ttf:system/cameradata/secvision/virtualtour/TransitionTemplates.ttf \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -367,38 +306,37 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/etc/F16UL_s5k2p2xx_module_info.xml:system/etc/F16UL_s5k2p2xx_module_info.xml \
     vendor/samsung/kccat6xx/proprietary/etc/F16US_imx240_module_info.xml:system/etc/F16US_imx240_module_info.xml \
     vendor/samsung/kccat6xx/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/samsung/kccat6xx/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/kccat6xx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/samsung/kccat6xx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/samsung/kccat6xx/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
@@ -423,19 +361,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
@@ -445,7 +370,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
     vendor/samsung/kccat6xx/proprietary/lib/hw/sensorhubs.apq8084.so:system/lib/hw/sensorhubs.apq8084.so \
     vendor/samsung/kccat6xx/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/kccat6xx/proprietary/lib/libcommon_time_client.so:system/lib/libcommon_time_client.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/kccat6xx/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
