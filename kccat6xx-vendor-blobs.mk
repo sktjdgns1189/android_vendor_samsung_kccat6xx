@@ -303,12 +303,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/kccat6xx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/samsung/kccat6xx/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/samsung/kccat6xx/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/samsung/kccat6xx/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/samsung/kccat6xx/proprietary/lib/hw/gps.apq8084.so:system/lib/hw/gps.apq8084.so \
+    vendor/samsung/kccat6xx/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/kccat6xx/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/samsung/kccat6xx/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/samsung/kccat6xx/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
