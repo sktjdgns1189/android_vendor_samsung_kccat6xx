@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libmmcamera_vpu_module.so:system/vendor/lib/libmmcamera_vpu_module.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/kccat6xx/proprietary/cameradata/F16UL_Isp1_s5k2p2xx.bin:system/cameradata/F16UL_Isp1_s5k2p2xx.bin \
     vendor/samsung/kccat6xx/proprietary/cameradata/F16US_Isp1_imx240.bin:system/cameradata/F16US_Isp1_imx240.bin \
     vendor/samsung/kccat6xx/proprietary/cameradata/H16UL_Isp1_s5k2p2xx.bin:system/cameradata/H16UL_Isp1_s5k2p2xx.bin \
