@@ -21,6 +21,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    vendor/samsung/kccat6xx/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/samsung/kccat6xx/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/kccat6xx/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/kccat6xx/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -389,7 +395,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/kccat6xx/proprietary/bin/efsks:system/bin/efsks \
-    vendor/samsung/kccat6xx/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/samsung/kccat6xx/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/kccat6xx/proprietary/bin/mdm_helper:system/bin/mdm_helper \
     vendor/samsung/kccat6xx/proprietary/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
