@@ -401,11 +401,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/kccat6xx/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/kccat6xx/proprietary/bin/rild:system/bin/rild \
-    vendor/samsung/kccat6xx/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     vendor/samsung/kccat6xx/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/samsung/kccat6xx/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/samsung/kccat6xx/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/kccat6xx/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/kccat6xx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/kccat6xx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/kccat6xx/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
