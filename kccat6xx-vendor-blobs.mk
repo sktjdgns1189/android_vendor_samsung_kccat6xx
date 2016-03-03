@@ -310,12 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/kccat6xx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/kccat6xx/proprietary/bin/vcsFPService:system/bin/vcsFPService \
-    vendor/samsung/kccat6xx/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
-    vendor/samsung/kccat6xx/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/samsung/kccat6xx/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
-    vendor/samsung/kccat6xx/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/kccat6xx/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/samsung/kccat6xx/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/samsung/kccat6xx/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/kccat6xx/proprietary/etc/sap.conf:system/etc/sap.conf \
